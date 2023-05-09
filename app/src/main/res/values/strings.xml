@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Movie</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="errorText">Oops.. something went wrong</string>
+    <string name="Favorite">Favorite Button</string>
+    <string name="favorite_menu">Favorite</string>
+    <string name="home_menu">Home</string>
+</resources>
