@@ -1,8 +1,9 @@
 package com.batara.movie.home
 
 import androidx.lifecycle.ViewModel
-import com.batara.movie.core.domain.usecase.MovieUseCase
+import androidx.lifecycle.asLiveData
+import com.example.core.domain.usecase.MovieUseCase
 
 class HomeViewModel(movieUseCase: MovieUseCase)  : ViewModel(){
-    val movie = movieUseCase.getAllMovie()
+    val movie = movieUseCase.getAllMovie().asLiveData()
 }

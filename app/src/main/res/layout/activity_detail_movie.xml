@@ -16,7 +16,6 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            android:scaleType="centerCrop"
             tools:src="@drawable/test"/>
 
         <TextView
@@ -98,14 +97,16 @@
             app:layout_constraintTop_toBottomOf="@id/voteCount_tv" />
 
         <TextView
+            android:id="@+id/popularityTv"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="2980.123"
+            tools:text="2980.123"
             app:layout_constraintStart_toStartOf="@id/voteCount_tv"
             app:layout_constraintEnd_toEndOf="@id/voteCount_tv"
             app:layout_constraintTop_toTopOf="@id/popularity" />
 
         <TextView
+            android:id="@+id/descTv"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             app:layout_constraintStart_toStartOf="@id/titleTv"
@@ -117,6 +118,7 @@
             tools:targetApi="o" />
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/favoriteFab"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/baseline_favorite_24"
