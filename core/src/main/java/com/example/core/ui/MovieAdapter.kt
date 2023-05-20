@@ -37,7 +37,7 @@ class MovieAdapter : RecyclerView.Adapter<MovieAdapter.ListViewHolder>() {
         fun bind(data : Movie) {
             with(binding) {
                 Glide.with(itemView.context)
-                    .load(BuildConfig.LOAD_PIC+data.pictureUrl)
+                    .load("https://image.tmdb.org/t/p/w500"+data.pictureUrl)
                     .override(240,360)
                     .into(pictureMovieIv)
                 titleTv.text = data.title
