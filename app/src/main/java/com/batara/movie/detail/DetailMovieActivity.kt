@@ -37,7 +37,7 @@ class DetailMovieActivity : AppCompatActivity() {
     private fun showDetailMovie(detailMovie: Movie?) {
         detailMovie?.let {
             Glide.with(this@DetailMovieActivity)
-                .load(BuildConfig.LOAD_PIC+detailMovie.backdropUrl)
+                .load("https://image.tmdb.org/t/p/w500"+detailMovie.backdropUrl)
                 .into(binding.backdropIv)
 
             binding.releaseDateTv.text= detailMovie.releaseDate
