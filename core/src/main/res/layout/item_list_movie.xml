@@ -34,7 +34,8 @@
                     android:id="@+id/pictureMovie_iv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    tools:src="@tools:sample/avatars"/>
+                    tools:src="@tools:sample/avatars"
+                    android:contentDescription="@string/movie_picture" />
 
             </androidx.cardview.widget.CardView>
 
@@ -58,7 +59,7 @@
                 app:layout_constraintTop_toBottomOf="@id/title_tv"
                 app:layout_constraintBottom_toTopOf="@id/voteAverage"
                 android:layout_marginTop="4dp"
-                android:text="Release Date :" />
+                android:text="@string/release_date" />
 
             <TextView
                 android:id="@+id/releaseDate_tv"
@@ -78,7 +79,7 @@
                 app:layout_constraintStart_toStartOf="@id/releaseDate"
                 app:layout_constraintTop_toBottomOf="@id/releaseDate_tv"
                 app:layout_constraintBottom_toTopOf="@id/voteCount"
-                android:text="Vote Average :"/>
+                android:text="@string/vote_average"/>
 
             <TextView
                 android:id="@+id/voteAverage_tv"
@@ -97,7 +98,7 @@
                 app:layout_constraintTop_toBottomOf="@id/voteAverage_tv"
                 app:layout_constraintBottom_toBottomOf="parent"
                 android:layout_marginBottom="16dp"
-                android:text="Vote Count :"/>
+                android:text="@string/vote_count"/>
 
             <TextView
                 android:id="@+id/voteCount_tv"

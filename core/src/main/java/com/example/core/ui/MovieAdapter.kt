@@ -1,20 +1,20 @@
 package com.example.core.ui
 
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.core.domain.model.Movie
 import com.bumptech.glide.Glide
 import com.example.core.BuildConfig
 import com.example.core.R
 import com.example.core.databinding.ItemListMovieBinding
+import com.example.core.domain.model.Movie
 
 class MovieAdapter : RecyclerView.Adapter<MovieAdapter.ListViewHolder>() {
     private val listData = ArrayList<Movie>()
     var onItemClick : ((Movie) -> Unit)? = null
 
+    @Suppress("NotifyDataSetChanged")
     fun setData(newListData : List<Movie>?) {
         if (newListData == null) return
         listData.clear()

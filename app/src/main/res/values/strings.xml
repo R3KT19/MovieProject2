@@ -10,4 +10,10 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="title_favorite">Favorite</string>
+    <string name="movie_banner">Movie Banner</string>
+    <string name="sample_title">Sample Title</string>
+    <string name="release_date">Release Date :</string>
+    <string name="vote_average">Vote Average :</string>
+    <string name="vote_count">Vote Count :</string>
+    <string name="popularity">Popularity :</string>
 </resources>

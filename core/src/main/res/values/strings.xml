@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Movie</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="errorText">Oops.. something went wrong</string>
     <string name="Favorite">Favorite Button</string>
     <string name="favorite_menu">Favorite</string>
@@ -9,4 +8,8 @@
     <string name="no_data">No Data</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="movie_picture">Movie Picture</string>
+    <string name="release_date">Release Date :</string>
+    <string name="vote_average">Vote Average :</string>
+    <string name="vote_count">Vote Count :</string>
 </resources>

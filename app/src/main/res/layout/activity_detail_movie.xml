@@ -16,13 +16,14 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            tools:src="@drawable/test"/>
+            tools:src="@drawable/test"
+            android:contentDescription="@string/movie_banner" />
 
         <TextView
             android:id="@+id/titleTv"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="Sample Title"
+            android:text="@string/sample_title"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@id/backdropIv"
@@ -38,7 +39,7 @@
             app:layout_constraintStart_toStartOf="@id/titleTv"
             app:layout_constraintTop_toBottomOf="@id/titleTv"
             android:layout_marginTop="4dp"
-            android:text="Release Date :" />
+            android:text="@string/release_date" />
 
         <TextView
             android:id="@+id/releaseDate_tv"
@@ -58,7 +59,7 @@
             app:layout_constraintStart_toStartOf="@id/releaseDate"
             app:layout_constraintTop_toBottomOf="@id/releaseDate_tv"
             android:layout_marginTop="4dp"
-            android:text="Vote Average :"/>
+            android:text="@string/vote_average"/>
 
         <TextView
             android:id="@+id/voteAverage_tv"
@@ -76,7 +77,7 @@
             app:layout_constraintStart_toStartOf="@id/voteAverage"
             app:layout_constraintTop_toBottomOf="@id/voteAverage_tv"
             android:layout_marginTop="4dp"
-            android:text="Vote Count :"/>
+            android:text="@string/vote_count"/>
 
         <TextView
             android:id="@+id/voteCount_tv"
@@ -91,7 +92,7 @@
             android:id="@+id/popularity"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Popularity :"
+            android:text="@string/popularity"
             android:layout_marginTop="4dp"
             app:layout_constraintStart_toStartOf="@id/voteCount"
             app:layout_constraintTop_toBottomOf="@id/voteCount_tv" />

@@ -40,6 +40,7 @@ class DetailMovieActivity : AppCompatActivity() {
                 .load("https://image.tmdb.org/t/p/w500"+detailMovie.backdropUrl)
                 .into(binding.backdropIv)
 
+            binding.titleTv.text = detailMovie.title
             binding.releaseDateTv.text= detailMovie.releaseDate
             binding.voteAverageTv.text = detailMovie.vote
             binding.voteCountTv.text = detailMovie.voteCount
